@@ -17,4 +17,5 @@ Overcoming "Lyadh" of storing solutions
 
 1. find minimum time when making p number of parathas is possible
 2. so monotonic seq of F F F F T T ..... find the first true
-3. use BS with predicate function keeping number of parathas as constraint.
+3. set max as (p*(p+1)/2) * maximum val in array 
+4. use BS with predicate function keeping number of parathas as constraint.
