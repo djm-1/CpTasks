@@ -12,3 +12,9 @@ Overcoming "Lyadh" of storing solutions
 1. for given edge add 0 in x->y direction
 2. add 1 in reverse y->x direction (not given edge)
 3. apply 0-1 BFS to get a directed shortest path from 1 to n. 
+
+### [PRATA spoj](https://www.spoj.com/problems/PRATA/)
+
+1. find minimum time when making p number of parathas is possible
+2. so monotonic seq of F F F F T T ..... find the first true
+3. use BS with predicate function keeping number of parathas as constraint.
