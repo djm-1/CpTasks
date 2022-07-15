@@ -1,5 +1,5 @@
 # CpTasks
-Overcoming "Lyadh" of storing solutions
+CP problems of important topics
 
 ### [KATHTHI spoj](https://www.spoj.com/problems/KATHTHI/)
 
@@ -25,3 +25,9 @@ Overcoming "Lyadh" of storing solutions
 1. Try traversing from maximum value nodes (multisource BFS)
 2. Count the number of levels until it exhausts
 3. return level-1 (no of edges till deepest node reqd only)
+
+### [Help king Spoj](https://www.spoj.com/problems/IITKWPCG/)
+
+1. Classic MST
+2. take log of weights and add them
+3. cost+1 will give total number of divisors
