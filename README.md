@@ -31,3 +31,14 @@ CP problems of important topics
 1. Classic MST
 2. take log of weights and add them
 3. cost+1 will give total number of divisors
+
+### [Game Route CSES](https://cses.fi/problemset/task/1681/)
+
+1. Topo sort first
+2. dp[v]= 
+edge u→v exists
+∑
+​
+ dp[u],
+ 
+3. dp[1]=1
