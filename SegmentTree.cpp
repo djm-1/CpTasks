@@ -1,25 +1,3 @@
-/*
-
-    ******          *********        ***     ***
-    *******         *********        ****   ****
-    **    ***              **        ** ** ** **
-    **     ***             **        **  ***  **
-    **    ***       **     **        **   *   **
-    *******          ********        **       **
-    ******            *******        **       **
-
-
-
-
-/*******Author:djm_boss*******/
-
-
-#include<bits/stdc++.h>
-using namespace std;
-typedef long long int ll;
-ll mod=1000000007;
-ll inf=INT_MAX;
-
 class SegmentTree{
 public:
     vector<ll>st;
@@ -87,38 +65,4 @@ public:
 };
 
 
-
-int main()
-{
-    ///fast I/O
-    ios_base::sync_with_stdio(false);
-    cin.tie(NULL);
-
-    ll n,m;
-    cin>>n>>m;
-
-    vector<ll>arr(n);
-    
-    for(ll i=0;i<n;i++)
-        cin>>arr[i];
-
-    SegmentTree Tree;
-    Tree.init(n);
-
-    Tree.buildTree(0,n-1,0,arr);
-
-    ll t,u,v;
-    while(m--)
-    {
-        cin>>t>>u>>v;
-        if(t==1)
-        {
-            Tree.update(0,n-1,u,0,v);
-        }
-        else
-        {
-            cout<<Tree.query(0,n-1,u,v-1,0)<<"\n";
-        }
-    }
-}
-
+// start=0, end=n-1, index=0 initially
